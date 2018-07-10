@@ -1,0 +1,2 @@
+# SmartDB
+The goal of this project is to build a smart database framework which is efficient in both storage and query performance. The framework collects the features from original dataset (eg. average length, cardinality, sortedness, min, max) and query workload (eg. query type, hot data range) on it. Based on these feature, we can not only further encode the file in a more storage friendly way, but also re-partition and index to better support future query.
